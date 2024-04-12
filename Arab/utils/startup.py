@@ -15,7 +15,7 @@ from ..sql_helper.global_collection import del_keyword_collectionlist, get_item_
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .klanr import load_module
 from .tools import create_supergroup
-LOGS = logging.getLogger("تليثون العرب \n ")
+LOGS = logging.getLogger("تليثون طارق فون \n ")
 cmdhr = Config.COMMAND_HAND_LER
 async def load_plugins(folder):
     path = f"Arab/{folder}/*.py"
@@ -119,7 +119,7 @@ async def verifyLoggerGroup():
         except Exception as e:
             LOGS.error(                "🝳 ︙ حدث استثناء عند محاولة التحقق من PM_LOGGER_GROUP_ID.\n" + str(e)            )
     else:
-        descript = "🝳 ︙ وظيفه هذا المجموعة لحفض رسائل التي تكون موجة اليك ان لم تعجبك هذا المجموعة قم بحذفها نهائيأ 👍 \n  الـسورس : - @IQTHON"
+        descript = "🝳 ︙ وظيفه هذا المجموعة لحفض رسائل التي تكون موجة اليك ان لم تعجبك هذا المجموعة قم بحذفها نهائيأ 👍 \n  الـسورس : - @BV_YQ"
         iqphoto2 = await iqthon.upload_file(file="SQL/extras/iqthon2.jpg")
         _, groupid = await create_supergroup(            "تخزين تليثون العرب الخاص", iqthon, Config.TG_BOT_USERNAME, descript    , iqphoto2  )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
