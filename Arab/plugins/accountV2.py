@@ -1542,7 +1542,7 @@ iqthon_checker2 = '''
 طريقة تفعيل الصيد 
 .صيد + عدد الصيد + رقم نوع الصيد + يوزر القناه الذي انشاته
 -----------------------------
-- مثال : .صيد 30000 1 @iqthon
+- مثال : .صيد 30000 1 @BV_YQ
 -----------------------------
 '''
 
@@ -1689,7 +1689,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
 - Done ↣ (@{username})
-- By ↣ @LLL5L - @IQTHON !
+- By ↣ @F_F_F_V - @BV_YQ !
 - Hunting History ↣ {klinore}
 - Hunting Hour ↣ {klinore2}
     ''')
