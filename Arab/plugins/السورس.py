@@ -348,7 +348,7 @@ async def bad(event):
             vname = oldvars[vname]
         if cmd == "اضف":
             if not vinfo and vname == "ALIVE_TEMPLATE":
-                return await edit_delete(event, f"**🝳︙  📑 يرجى متابع قناه الفارات تجدها هنا : @iqthon")
+                return await edit_delete(event, f"**🝳︙  📑 يرجى متابع قناه الفارات تجدها هنا : @BV_YQ")
             if not vinfo and vname == "PING_IQ":
                 return await edit_delete(event, f"**🝳︙ قم بكتابة الامـر بـشكل صحـيح  :  .اضف فار PING_TEXT النص الخاص بك**")
             if not vinfo:
