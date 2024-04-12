@@ -11,7 +11,7 @@ import shutil
 
 from bs4 import BeautifulSoup
 from ..helpers.utils import reply_id
-plugin_category = "@iqthon"
+plugin_category = "@BV_YQ"
 import urllib
 from telethon.tl import functions
 from Arab.utils.decorators import register
